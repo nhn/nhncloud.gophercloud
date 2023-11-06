@@ -1,6 +1,6 @@
 package zones
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 func baseURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("zones")

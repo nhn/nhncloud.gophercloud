@@ -1,6 +1,6 @@
 package vpcsubnets
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 func resourceURL(c *gophercloud.ServiceClient, id string, action ...string) string {
 	// @tc-iaas-compute/1452

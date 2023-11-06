@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/certificates"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/openstack/containerinfra/v1/certificates"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
+	fake "github.com/nhn/nhncloud.gophercloud/testhelper/client"
 )
 
 const CertificateResponse = `

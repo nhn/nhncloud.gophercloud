@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

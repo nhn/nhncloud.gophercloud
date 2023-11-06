@@ -6,12 +6,12 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumeactions"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v2/snapshots"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v2/volumes"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/clients"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/tools"
+	"github.com/nhn/nhncloud.gophercloud/openstack/blockstorage/extensions/volumeactions"
+	"github.com/nhn/nhncloud.gophercloud/openstack/blockstorage/v2/snapshots"
+	"github.com/nhn/nhncloud.gophercloud/openstack/blockstorage/v2/volumes"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestVolumesCreateDestroy(t *testing.T) {

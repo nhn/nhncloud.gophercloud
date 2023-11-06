@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
 )
 
 // Policy represents a clustering policy in the Openstack cloud.

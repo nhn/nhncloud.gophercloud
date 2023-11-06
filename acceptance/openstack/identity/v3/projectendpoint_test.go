@@ -6,11 +6,11 @@ package v3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/endpoints"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/extensions/projectendpoints"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/clients"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/tools"
+	"github.com/nhn/nhncloud.gophercloud/openstack/identity/v3/endpoints"
+	"github.com/nhn/nhncloud.gophercloud/openstack/identity/v3/extensions/projectendpoints"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestProjectEndpoints(t *testing.T) {

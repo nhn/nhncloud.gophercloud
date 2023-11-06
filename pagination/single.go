@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gophercloud/gophercloud"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
 )
 
 // SinglePageBase may be embedded in a Page that contains all of the results from an operation at once.

@@ -6,11 +6,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/imageservice/v2/tasks"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/clients"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/tools"
+	"github.com/nhn/nhncloud.gophercloud/openstack/imageservice/v2/tasks"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestTasksListEachPage(t *testing.T) {

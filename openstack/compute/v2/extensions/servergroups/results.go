@@ -1,8 +1,8 @@
 package servergroups
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
 )
 
 // A ServerGroup creates a policy for instance placement in the cloud.

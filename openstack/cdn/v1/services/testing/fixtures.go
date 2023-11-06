@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
+	fake "github.com/nhn/nhncloud.gophercloud/testhelper/client"
 )
 
 // HandleListCDNServiceSuccessfully creates an HTTP handler at `/services` on the test handler mux

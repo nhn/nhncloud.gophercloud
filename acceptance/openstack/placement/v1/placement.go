@@ -3,10 +3,10 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/placement/v1/resourceproviders"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/tools"
+	"github.com/nhn/nhncloud.gophercloud/openstack/placement/v1/resourceproviders"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func CreateResourceProvider(t *testing.T, client *gophercloud.ServiceClient) (*resourceproviders.ResourceProvider, error) {

@@ -3,8 +3,8 @@ package orders
 import (
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
 )
 
 // OrderType represents the valid types of orders.

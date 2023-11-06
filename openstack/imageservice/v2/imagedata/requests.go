@@ -3,7 +3,7 @@ package imagedata
 import (
 	"io"
 
-	"github.com/gophercloud/gophercloud"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
 )
 
 // Upload uploads an image file.

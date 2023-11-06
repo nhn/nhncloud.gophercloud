@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	accountTesting "github.com/gophercloud/gophercloud/openstack/objectstorage/v1/accounts/testing"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
-	containerTesting "github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers/testing"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	accountTesting "github.com/nhn/nhncloud.gophercloud/openstack/objectstorage/v1/accounts/testing"
+	"github.com/nhn/nhncloud.gophercloud/openstack/objectstorage/v1/containers"
+	containerTesting "github.com/nhn/nhncloud.gophercloud/openstack/objectstorage/v1/containers/testing"
+	"github.com/nhn/nhncloud.gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
+	fake "github.com/nhn/nhncloud.gophercloud/testhelper/client"
 )
 
 func TestContainerNames(t *testing.T) {

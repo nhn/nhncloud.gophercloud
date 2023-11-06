@@ -3,14 +3,14 @@ package vpnaas
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/vpnaas/endpointgroups"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/vpnaas/ikepolicies"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/vpnaas/ipsecpolicies"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/vpnaas/services"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/vpnaas/siteconnections"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/tools"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/vpnaas/endpointgroups"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/vpnaas/ikepolicies"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/vpnaas/ipsecpolicies"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/vpnaas/services"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/vpnaas/siteconnections"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 // CreateService will create a Service with a random name and a specified router ID

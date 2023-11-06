@@ -1,6 +1,6 @@
 package projectendpoints
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 func listURL(client *gophercloud.ServiceClient, projectID string) string {
 	return client.ServiceURL("OS-EP-FILTER", "projects", projectID, "endpoints")

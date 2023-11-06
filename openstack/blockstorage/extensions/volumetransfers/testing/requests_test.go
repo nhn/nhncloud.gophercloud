@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumetransfers"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/nhn/nhncloud.gophercloud/openstack/blockstorage/extensions/volumetransfers"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/testhelper/client"
 )
 
 func TestCreateTransfer(t *testing.T) {

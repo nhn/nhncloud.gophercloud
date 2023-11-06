@@ -3,7 +3,7 @@ package shareaccessrules
 import (
 	"fmt"
 
-	"github.com/gophercloud/gophercloud"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
 )
 
 const shareAccessRulesEndpoint = "share-access-rules"

@@ -1,8 +1,8 @@
 package tenantnetworks
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
 )
 
 // List returns a Pager that allows you to iterate over a collection of Networks.

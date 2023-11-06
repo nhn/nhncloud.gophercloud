@@ -1,6 +1,6 @@
 package claims
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 func (r CreateResult) Extract() ([]Messages, error) {
 	var s struct {

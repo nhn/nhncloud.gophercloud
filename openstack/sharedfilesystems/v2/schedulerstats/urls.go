@@ -1,6 +1,6 @@
 package schedulerstats
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 func poolsListURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("scheduler-stats", "pools")

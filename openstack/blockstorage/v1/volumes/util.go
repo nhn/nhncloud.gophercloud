@@ -1,7 +1,7 @@
 package volumes
 
 import (
-	"github.com/gophercloud/gophercloud"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
 )
 
 // WaitForStatus will continually poll the resource, checking for a particular

@@ -1,8 +1,8 @@
 package extraroutes
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/routers"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/layer3/routers"
 )
 
 // Extract is a function that accepts a result and extracts a router.

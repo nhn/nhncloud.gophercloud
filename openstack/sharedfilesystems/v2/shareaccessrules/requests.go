@@ -1,7 +1,7 @@
 package shareaccessrules
 
 import (
-	"github.com/gophercloud/gophercloud"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
 )
 
 // Get retrieves details about a share access rule.

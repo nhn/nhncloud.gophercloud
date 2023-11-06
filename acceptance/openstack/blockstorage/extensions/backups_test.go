@@ -6,11 +6,11 @@ package extensions
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/backups"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/clients"
+	"github.com/nhn/nhncloud.gophercloud/openstack/blockstorage/extensions/backups"
 
-	blockstorage "github.com/gophercloud/gophercloud/acceptance/openstack/blockstorage/v3"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	blockstorage "github.com/nhn/nhncloud.gophercloud/acceptance/openstack/blockstorage/v3"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestBackupsCRUD(t *testing.T) {

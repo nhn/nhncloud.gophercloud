@@ -3,8 +3,8 @@ package apiversions
 import (
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/utils"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/openstack/utils"
 )
 
 func getURL(c *gophercloud.ServiceClient, version string) string {

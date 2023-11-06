@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/accounts"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/clients"
+	"github.com/nhn/nhncloud.gophercloud/openstack/objectstorage/v1/accounts"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestAccounts(t *testing.T) {

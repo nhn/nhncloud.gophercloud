@@ -1,6 +1,6 @@
 package base
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 // Get retrieves the home document, allowing the user to discover the
 // entire API.

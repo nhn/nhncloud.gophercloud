@@ -1,7 +1,7 @@
 package workflows
 
 import (
-	"github.com/gophercloud/gophercloud"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
 )
 
 func createURL(client *gophercloud.ServiceClient) string {

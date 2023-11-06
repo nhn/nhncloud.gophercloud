@@ -1,7 +1,7 @@
 package resetnetwork
 
 import (
-	"github.com/gophercloud/gophercloud"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
 )
 
 // ResetResult is the response of a ResetNetwork operation. Call its ExtractErr

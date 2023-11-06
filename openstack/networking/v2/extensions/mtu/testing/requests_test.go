@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/mtu"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/mtu"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/networks"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestListExternal(t *testing.T) {

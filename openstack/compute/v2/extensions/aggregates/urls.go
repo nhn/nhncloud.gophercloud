@@ -1,6 +1,6 @@
 package aggregates
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 func aggregatesListURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("os-aggregates")

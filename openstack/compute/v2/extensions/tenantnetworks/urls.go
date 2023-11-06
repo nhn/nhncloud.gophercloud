@@ -1,6 +1,6 @@
 package tenantnetworks
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 const resourcePath = "os-tenant-networks"
 

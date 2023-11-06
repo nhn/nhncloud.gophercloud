@@ -9,11 +9,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack"
-	baremetalHTTPBasic "github.com/gophercloud/gophercloud/openstack/baremetal/httpbasic"
-	baremetalNoAuth "github.com/gophercloud/gophercloud/openstack/baremetal/noauth"
-	blockstorageNoAuth "github.com/gophercloud/gophercloud/openstack/blockstorage/noauth"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/openstack"
+	baremetalHTTPBasic "github.com/nhn/nhncloud.gophercloud/openstack/baremetal/httpbasic"
+	baremetalNoAuth "github.com/nhn/nhncloud.gophercloud/openstack/baremetal/noauth"
+	blockstorageNoAuth "github.com/nhn/nhncloud.gophercloud/openstack/blockstorage/noauth"
 )
 
 // AcceptanceTestChoices contains image and flavor selections for use by the acceptance tests.

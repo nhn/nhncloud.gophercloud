@@ -6,11 +6,11 @@ package extensions
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/security/groups"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/clients"
+	networking "github.com/nhn/nhncloud.gophercloud/acceptance/openstack/networking/v2"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/tools"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/security/groups"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestSecurityGroupsCreateUpdateDelete(t *testing.T) {

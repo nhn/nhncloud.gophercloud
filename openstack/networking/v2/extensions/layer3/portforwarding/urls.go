@@ -1,6 +1,6 @@
 package portforwarding
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 const resourcePath = "floatingips"
 const portForwardingPath = "port_forwardings"

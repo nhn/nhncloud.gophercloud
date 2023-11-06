@@ -1,6 +1,6 @@
 package orders
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 func listURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("orders")

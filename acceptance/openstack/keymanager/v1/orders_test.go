@@ -6,12 +6,12 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/keymanager/v1/containers"
-	"github.com/gophercloud/gophercloud/openstack/keymanager/v1/orders"
-	"github.com/gophercloud/gophercloud/openstack/keymanager/v1/secrets"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/clients"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/tools"
+	"github.com/nhn/nhncloud.gophercloud/openstack/keymanager/v1/containers"
+	"github.com/nhn/nhncloud.gophercloud/openstack/keymanager/v1/orders"
+	"github.com/nhn/nhncloud.gophercloud/openstack/keymanager/v1/secrets"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestOrdersCRUD(t *testing.T) {

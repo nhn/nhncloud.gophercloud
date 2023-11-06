@@ -1,8 +1,8 @@
 package rescueunrescue
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/openstack/compute/v2/extensions"
 )
 
 // RescueOptsBuilder is an interface that allows extensions to override the

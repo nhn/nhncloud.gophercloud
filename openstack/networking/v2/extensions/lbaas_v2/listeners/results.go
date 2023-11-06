@@ -1,10 +1,10 @@
 package listeners
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas_v2/l7policies"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
-	"github.com/gophercloud/gophercloud/pagination"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/lbaas_v2/l7policies"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
 )
 
 type LoadBalancerID struct {

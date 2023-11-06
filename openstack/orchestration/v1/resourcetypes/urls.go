@@ -1,6 +1,6 @@
 package resourcetypes
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 const (
 	resTypesPath = "resource_types"

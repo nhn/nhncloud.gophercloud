@@ -1,7 +1,7 @@
 package quotas
 
 import (
-	"github.com/gophercloud/gophercloud"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
 )
 
 // Get returns load balancer Quotas for a project.

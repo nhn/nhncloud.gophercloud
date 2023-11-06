@@ -1,10 +1,10 @@
 package instances
 
 import (
-	"github.com/gophercloud/gophercloud"
-	db "github.com/gophercloud/gophercloud/openstack/db/v1/databases"
-	"github.com/gophercloud/gophercloud/openstack/db/v1/users"
-	"github.com/gophercloud/gophercloud/pagination"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	db "github.com/nhn/nhncloud.gophercloud/openstack/db/v1/databases"
+	"github.com/nhn/nhncloud.gophercloud/openstack/db/v1/users"
+	"github.com/nhn/nhncloud.gophercloud/pagination"
 )
 
 // CreateOptsBuilder is the top-level interface for create options.

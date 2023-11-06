@@ -1,6 +1,6 @@
 package startstop
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 // StartResult is the response from a Start operation. Call its ExtractErr
 // method to determine if the request succeeded or failed.

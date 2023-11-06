@@ -14,7 +14,7 @@ Gophercloud is an OpenStack Go SDK.
 Reference a Gophercloud package in your code:
 
 ```go
-import "github.com/nhn/nhncloud.gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 ```
 
 Then update your `go.mod`:
@@ -99,8 +99,8 @@ credentials explicitly or tell Gophercloud to use environment variables:
 
 ```go
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	"github.com/nhn/nhncloud.gophercloud/openstack"
 )
 
 // Option 1: Pass in the values yourself
@@ -138,7 +138,7 @@ we invoke the `Create` method and pass in the flavor ID (hardware
 specification) and image ID (operating system) we're interested in:
 
 ```go
-import "github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
+import "github.com/nhn/nhncloud.gophercloud/openstack/compute/v2/servers"
 
 server, err := servers.Create(client, servers.CreateOpts{
 	Name:      "My new server!",

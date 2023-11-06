@@ -1,6 +1,6 @@
 package ruletypes
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 func listRuleTypesURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("qos", "rule-types")

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	th "github.com/gophercloud/gophercloud/testhelper"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestTEFixFileRefs(t *testing.T) {

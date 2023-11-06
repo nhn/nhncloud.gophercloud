@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	fake "github.com/gophercloud/gophercloud/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/routerinsertion"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	gophercloud "github.com/nhn/nhncloud.gophercloud"
+	fake "github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/common"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/fwaas/routerinsertion"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestCreate(t *testing.T) {

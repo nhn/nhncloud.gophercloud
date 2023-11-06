@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/external"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/portsecurity"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/clients"
+	"github.com/nhn/nhncloud.gophercloud/acceptance/tools"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/external"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/extensions/portsecurity"
+	"github.com/nhn/nhncloud.gophercloud/openstack/networking/v2/networks"
+	th "github.com/nhn/nhncloud.gophercloud/testhelper"
 )
 
 func TestNetworksExternalList(t *testing.T) {

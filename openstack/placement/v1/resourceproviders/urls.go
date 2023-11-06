@@ -1,6 +1,6 @@
 package resourceproviders
 
-import "github.com/gophercloud/gophercloud"
+import gophercloud "github.com/nhn/nhncloud.gophercloud"
 
 const (
 	apiName = "resource_providers"
