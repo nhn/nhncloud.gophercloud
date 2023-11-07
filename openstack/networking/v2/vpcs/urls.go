@@ -1,6 +1,6 @@
 package vpcs
 
-import gophercloud "github.com/nhn/nhncloud.gophercloud"
+import "github.com/gophercloud/gophercloud"
 
 func resourceURL(c *gophercloud.ServiceClient, id string) string {
 	return c.ServiceURL("vpcs", id)

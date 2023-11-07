@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	gophercloud "github.com/nhn/nhncloud.gophercloud"
-	"github.com/nhn/nhncloud.gophercloud/pagination"
+	"github.com/gophercloud/gophercloud"
+	"github.com/gophercloud/gophercloud/pagination"
 )
 
 type commonResult struct {
