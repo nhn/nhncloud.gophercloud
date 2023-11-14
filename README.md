@@ -9,12 +9,17 @@ NHN Cloud 서비스 사용을 위한 [Gophercloud](https://github.com/gopherclou
 
 ## How to install
 
-코드 내에 다음과 같이 `nhncloud.gophercloud` 패import "github.com/nhn/nhncloud.gophercloud"
+코드 내에 다음과 같이 `nhncloud.gophercloud` 패키지를 참조합니다.
+
+```go
+import "github.com/nhn/nhncloud.gophercloud"
 ```
 
 그런 다음 `go.mod`를 업데이트 합니다.
 
-```shel
+```shell
+go mod tidy
+```
 
 ---
 
