@@ -92,26 +92,13 @@ type RoutingtableDetail struct {
 	State string `json:"state"`
 
 	// VPCs List of VPC information objects to which routing table belongs
-	VPCs []struct {
-		ID string `json:"id,omitempty"`
-	} `json:"vpcs,omitempty"`
+	VPCs []string `json:"vpcs,omitempty"`
 
 	// Subnets List of subnet information objects associated with routing table
-	Subnets []struct {
-		ID string `json:"id,omitempty"`
-	} `json:"subnets,omitempty"`
+	Subnets []string `json:"subnets,omitempty"`
 
 	// Routes List of route information objects set to routing table
-	Routes []struct {
-		SubnetID       string `json:"subnet_id,omitempty"`
-		TenantID       string `json:"tenant_id,omitempty"`
-		Mask           string `json:"mask,omitempty"`
-		Gateway        string `json:"gateway,omitempty"`
-		GatewayID      string `json:"gateway_id,omitempty"`
-		RoutingtableID string `json:"routingtable_id,omitempty"`
-		CIDR           string `json:"cidr,omitempty"`
-		ID             string `json:"id,omitempty"`
-	} `json:"routes,omitempty"`
+	Routes []Route `json:"routes,omitempty"`
 
 	// CreateTime Routing table creation time
 	CreateTime string `json:"create_time"`
@@ -120,6 +107,16 @@ type RoutingtableDetail struct {
 	// network last changed, and when it was created.
 	UpdatedAt time.Time `json:"-"`
 	CreatedAt time.Time `json:"-"`
+}
+
+type Route struct {
+	TenantID       string `json:"tenant_id,omitempty"`
+	Mask           int    `json:"mask,omitempty"`
+	Gateway        string `json:"gateway,omitempty"`
+	GatewayID      string `json:"gateway_id,omitempty"`
+	RoutingtableID string `json:"routingtable_id,omitempty"`
+	CIDR           string `json:"cidr,omitempty"`
+	ID             string `json:"id,omitempty"`
 }
 
 func (r *Routingtable) UnmarshalJSON(b []byte) error {
