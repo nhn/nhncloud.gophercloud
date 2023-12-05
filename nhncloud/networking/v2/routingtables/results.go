@@ -45,7 +45,7 @@ type Routingtable struct {
 	// TenantID Tenant ID to which routing table is included
 	TenantID string `json:"tenant_id"`
 
-	// Routingtable Routing table ID
+	// ID Routing table ID
 	ID string `json:"id"`
 
 	// DefaultTable Whether routing table is default table
@@ -91,10 +91,10 @@ type RoutingtableDetail struct {
 	// State Status of the routing table. Currently, only the available status exists
 	State string `json:"state"`
 
-	// VPCs List of VPC information objects to which routing table belongs
+	// VPCs List of VPC information strings to which routing table belongs
 	VPCs []string `json:"vpcs,omitempty"`
 
-	// Subnets List of subnet information objects associated with routing table
+	// Subnets List of subnet information strings associated with routing table
 	Subnets []string `json:"subnets,omitempty"`
 
 	// Routes List of route information objects set to routing table
