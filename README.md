@@ -1,18 +1,30 @@
 # Extensions for Gophercloud: an NHN Cloud SDK for Go
 
-Extensions for [Gophercloud](https://github.com/gophercloud/gophercloud) in NHN Cloud Go SDK.
+This is the Go SDK extension for [Gophercloud](https://github.com/gophercloud/gophercloud) to use NHN Cloud services.
+
+The following NHN Cloud services' SDKs are included.
+
+* VPC
+* VPC subnet
 
 ## How to install
 
-Reference a Gophercloud package in your code:
+Reference a `nhncloud.gophercloud` package in your code.
 
 ```go
 import "github.com/nhn/nhncloud.gophercloud"
 ```
 
-Then update your `go.mod`:
+Then update your `go.mod`.
 
 ```shell
 go mod tidy
 ```
 
+---
+
+Or use the `go get` command to import packages.
+
+```shell
+go get github.com/nhn/nhncloud.gophercloud
+```
