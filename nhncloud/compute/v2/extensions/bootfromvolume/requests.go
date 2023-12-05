@@ -86,16 +86,16 @@ type BlockDevice struct {
 	// This requires Compute API microversion 2.42 or later.
 	Tag string `json:"tag,omitempty"`
 
-	// NhnEncryption
+	// NhnEncryption Encrypted Volume Option.
 	NhnEncryption *NhnEncryption `json:"nhn_encryption,omitempty"`
 }
 
 type NhnEncryption struct {
-	// SkmAppkey
+	// SkmAppkey appkey from the security key manager.
 	SkmAppkey string `json:"skm_appkey,omitempty"`
 
-	// SkmKeyId
-	SkmKeyId string `json:"skm_key_id,omitempty"`
+	// SkmKeyID ID from the security key manager.
+	SkmKeyID string `json:"skm_key_id,omitempty"`
 }
 
 // CreateOptsExt is a structure that extends the server `CreateOpts` structure
