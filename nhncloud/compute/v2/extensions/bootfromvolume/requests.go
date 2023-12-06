@@ -90,6 +90,7 @@ type BlockDevice struct {
 	NhnEncryption *NhnEncryption `json:"nhn_encryption,omitempty"`
 }
 
+// NhnEncryption Encrypted block storage.
 type NhnEncryption struct {
 	// SkmAppkey appkey from the security key manager.
 	SkmAppkey string `json:"skm_appkey,omitempty"`
